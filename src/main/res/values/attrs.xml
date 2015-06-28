@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectableView" >
+        <attr name="selected_icon" format="reference" />
+        <attr name="unselected_icon" format="reference" />
+        <attr name="text_unselected_color" format="color" />
+        <attr name="text_selected_color" format="color" />
+        <attr name="default_selected" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="selected_color"></declare-styleable>
+
+</resources>
