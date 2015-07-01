@@ -89,7 +89,7 @@ xmlns:bottombar="http://schemas.android.com/apk/res-auto"
   - ```text_unselected_color``` ： 当tab未选中的时候文字显示的颜色。
   - ```default_selected``` ： tab是否默认设定为选中状态。
 
-- 注意：```BottomTextViewGroup```必须放在```BottomTextViewGroup``里面。
+- 注意：```BottomTextViewGroup```必须放在```BottomTextViewGroup```里面。
 
 # 用gradle配置
 
