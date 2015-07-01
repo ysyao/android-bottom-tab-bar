@@ -3,7 +3,9 @@
 
 这是利用本项目做出的简单效果：
 
-调用代码：
+#使用方式
+
+将这段代码放到项目的外观资源文件中：
 ```
 <com.ysyao.bottomtabbar.BottomTextViewGroup
         android:layout_height="wrap_content"
