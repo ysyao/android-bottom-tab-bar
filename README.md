@@ -3,11 +3,11 @@
 
 这是本项目做出的简单效果：
 
-<p align="center" >
-  <img src="https://raw.github.com/AFNetworking/AFNetworking/assets/afnetworking-logo.png" alt="tabbar" title="tabbar">
+<p align="left" >
+  <img src="https://github.com/ysyao/android-bottom-tab-bar/blob/master/bar1.gif" alt="tabbar" title="tabbar">
 </p>
 
-#使用方式
+# 使用方式
 
 - 将这段代码放到资源文件的根tag上：
 ```
@@ -81,15 +81,31 @@ xmlns:bottombar="http://schemas.android.com/apk/res-auto"
     </com.ysyao.bottomtabbar.BottomTextViewGroup>
 ```
 
-- tag属性解释：
+* tag属性解释：
 
-```selected_icon``` ： 当tab选中的时候显示的图片。
-```unselected_icon``` ： 当tab未选中的时候显示的图片。
-```text_selected_color``` ： 当tab选中的时候文字显示的颜色。
-```text_unselected_color``` ： 当tab未选中的时候文字显示的颜色。
-```default_selected``` ： tab是否默认设定为选中状态。
+  - ```selected_icon``` ： 当tab选中的时候显示的图片。
+  - ```unselected_icon``` ： 当tab未选中的时候显示的图片。
+  - ```text_selected_color``` ： 当tab选中的时候文字显示的颜色。
+  - ```text_unselected_color``` ： 当tab未选中的时候文字显示的颜色。
+  - ```default_selected``` ： tab是否默认设定为选中状态。
 
 - 注意：```BottomTextViewGroup```必须放在```BottomTextViewGroup``里面。
 
+# 用gradle配置
+
+在build.gradle文件中加入：
+```gradle
+dependencies {
+    compile 'com.ysyao:bottomtabbar:1.0.3'
+}
+```
+
+# Android Studio配置
+
+在```Project Structure```选中需要引用library的项目，点击```dependencies```,然后点击```＋```选择```Library dependence```，输入```com.ysyao```查询，从结果中选择```com.ysyao:bottomtabbar:1.0.3```最后点击```ok```即可，如图：
+
+<p align="left" >
+  <img src="https://github.com/ysyao/android-bottom-tab-bar/blob/master/search_library.png" alt="search" title="search">
+</p>
 
 
