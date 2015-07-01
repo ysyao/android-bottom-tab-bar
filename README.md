@@ -4,6 +4,57 @@
 
 这是利用本项目做出的一些简单效果：
 
-代码如下：
-
+调用代码：
+<code><com.ysyao.bottomtabbar.BottomTextViewGroup
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/container"
+        android:background="@color/bottom_bar_background"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/ui_margin_small">
+    <com.ysyao.bottomtabbar.SelectableBottomTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bus"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="大巴"
+        android:textSize="12sp"
+        bottombar:selected_icon="@drawable/ic_bus_icon_selected"
+        bottombar:unselected_icon="@drawable/ic_bus_icon_unselected"
+        bottombar:text_selected_color="@color/button_textview_selected_color"
+        bottombar:text_unselected_color="@color/button_textview_unselected_color"
+        bottombar:default_selected="true"
+        />
+        <com.ysyao.bottomtabbar.SelectableBottomTextView
+            android:id="@+id/bag"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="旅行团"
+            android:textSize="12sp"
+            bottombar:selected_icon="@drawable/ic_bag_selected"
+            bottombar:unselected_icon="@drawable/ic_bag_unselected"
+            bottombar:text_selected_color="@color/button_textview_selected_color"
+            bottombar:text_unselected_color="@color/button_textview_unselected_color"
+            bottombar:default_selected="false"
+            />
+        <com.ysyao.bottomtabbar.SelectableBottomTextView
+            android:id="@+id/tourism"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            bottombar:selected_icon="@drawable/tour_selected"
+            bottombar:unselected_icon="@drawable/tour_unselected"
+            bottombar:text_selected_color="@color/button_textview_selected_color"
+            bottombar:text_unselected_color="@color/button_textview_unselected_color"
+            bottombar:default_selected="false"
+            android:text="导游"
+            android:textSize="12sp"
+            />
+    </com.ysyao.bottomtabbar.BottomTextViewGroup></code>
 
